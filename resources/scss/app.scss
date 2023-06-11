@@ -41,3 +41,94 @@ header {
     margin: 20px;
     overflow: auto;
 }
+
+footer {
+    #b {
+        background-image: url(../images/footer-bg.jpg);
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10%;
+        padding-right: 10%;
+
+        #footerLink {
+            display: flex;
+
+            .footerColumn {
+                margin-left: 50px;
+            }
+
+            span {
+                display: inline-block;
+                color: white;
+
+                h3 {
+                    margin-top: 50px;
+                }
+
+                ul {
+                    margin-top: 20px;
+
+                    li {
+                        display: block;
+                        text-align: start;
+                        margin-top: 7px;
+
+                        a {
+                            text-decoration: none;
+                            color: grey;
+                        }
+                    }
+                }
+            }
+        }
+
+        #footerLogo {
+            background-image: url(../images/dc-logo-bg.png);
+            width: 560px;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+        }
+    }
+
+    #c {
+        background-color: rgb(73, 73, 73);
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10%;
+        padding-right: 10%;
+
+        div {
+            display: flex;
+            align-items: center;
+
+            img {
+                margin-right: 10px;
+            }
+
+            h2 {
+                margin-right: 30px;
+                color: rgb(25, 98, 192);
+            }
+
+            #d {
+                border: 3px solid rgb(25, 98, 192);
+                padding: 10px;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.block {
+    display: block !important;
+}
