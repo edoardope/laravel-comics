@@ -1,1 +1,43 @@
 @import '~bootstrap/scss/bootstrap';
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    ul {
+        li {
+            display: inline;
+
+            a {
+                text-decoration: none;
+                margin-left: 20px;
+                color: black;
+                font-weight: 600;
+                display: inline-block;
+                height: 115px;
+                line-height: 110px;
+
+                &:hover {
+                    color: blue;
+                }
+            }
+        }
+    }
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+    overflow: auto;
+}
